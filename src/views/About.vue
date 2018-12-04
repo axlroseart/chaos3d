@@ -1,5 +1,24 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <center>
+      <h1>My first threeJs demo</h1>
+    </center>
   </div>
 </template>
+
+<script>
+import * as THREE from 'three'
+export default {
+  data() {
+    return {
+    }
+  },
+  mounted() {
+    console.log(THREE)
+  }
+}
+</script>
+
+<style>
+
+</style>
